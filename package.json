@@ -1,10 +1,9 @@
 {
-  "name": "mynext01",
+  "name": "nextjs-14.0",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "dev-tubo": "next dev --turbo",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -20,28 +19,28 @@
     "next": "14.2.3",
     "next-auth": "^4.24.7",
     "pretendard": "^1.3.9",
-    "react": "^18",
-    "react-dom": "^18",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-hook-form": "^7.51.4",
     "react-js-pagination": "^3.0.3",
     "sass": "^1.77.1",
-    "swiper": "^11.1.2",
+    "swiper": "^11.1.3",
     "swr": "^2.2.5",
-    "tsx": "^4.10.2",
+    "tsx": "^4.10.3",
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
     "@types/react-js-pagination": "^3.0.7",
     "autoprefixer": "^10.4.19",
-    "eslint": "^8",
+    "eslint": "^8.57.0",
     "eslint-config-next": "14.2.3",
-    "postcss": "^8",
+    "postcss": "^8.4.38",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.14",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5"
   }
 }
