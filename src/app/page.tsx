@@ -1,5 +1,19 @@
-import Image from 'next/image';
+'use server';
+import Link from 'next/link';
 
-export default function Home() {
-  return <div className={'text-3xl text-red-600'}>Hello World 2</div>;
+export default async function Home() {
+  return (
+    <>
+      <div className={'p-8'}>
+        <h1 className={'text-3xl font-bold text-black'}>Hello World</h1>
+        <ul className={'mt-5'}>
+          <li>
+            <Link href="/shop/product/" className={'text-blue-700'}>
+              상품 목록
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </>
+  );
 }
