@@ -20,7 +20,8 @@ export default function RootLayout({
         </head>
         <body>
           <>
-            {children} <Analytics />
+            {children}
+            <Analytics />
             <SpeedInsights />
           </>
         </body>
