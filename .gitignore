@@ -284,6 +284,7 @@ yarn-error.log*
 
 # vercel
 .vercel
+.vscode
 
 # typescript
 *.tsbuildinfo
@@ -292,4 +293,5 @@ next-env.d.ts
 # test
 src/test/
 src/app/test/
+
 
